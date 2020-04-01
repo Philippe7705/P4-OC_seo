@@ -1884,7 +1884,10 @@ pre code {
   width:41.66666667%
  }
  .col-sm-4 {
-  width:33.33333333%
+  width:33.33333333%;
+  list-style: disc;
+  color: #333;
+  line-height: 30px;
  }
  .col-sm-3 {
   width:25%
