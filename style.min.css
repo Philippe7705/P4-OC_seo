@@ -247,11 +247,13 @@ footer .row {
  align-content:space-around;
  justify-content:space-around
 }
+
+ 
 @media (max-width:650px) {
  .social {
   display:grid!important;
   grid-template-rows:1fr 1fr;
-  grid-template-areas:"before before" "twitter facebook" 'dribble instagram'
+  grid-template-areas:"before before" "twitter facebook" 'dribble instagram';
  }
 }
 .social::before {
