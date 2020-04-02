@@ -103,7 +103,18 @@ sub {
 }
 
 img {
-    border: 0
+    border: 0;
+}
+
+#bloc-2-services img {
+    width: 70vw;
+    margin: auto !important;
+    max-width: 800px;
+    min-width: 300px;
+}
+
+.text-center .citation {
+    margin: auto !important;
 }
 
 svg:not(:root) {
@@ -112,6 +123,13 @@ svg:not(:root) {
 
 figure {
     margin: 1em 40px
+}
+
+.social {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding-top: 0.3rem;
 }
 
 hr {
@@ -1435,7 +1453,6 @@ img {
 .img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
-    display: block;
     max-width: 100%;
     height: auto
 }
@@ -2085,7 +2102,8 @@ pre code {
 }
 
 .col-xs-12 {
-    width: 100%
+    width: 100% !important;
+    margin: auto !important;
 }
 
 .col-xs-11 {
@@ -7682,7 +7700,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #000;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
@@ -7795,7 +7813,7 @@ button.close {
 .center-block {
     display: block;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
 }
 
 .pull-right {

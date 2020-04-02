@@ -1,12 +1,13 @@
 <!doctype html>
-<html lang="Default">
+<html lang="fr">
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="La chouette agence, design site web, web design, agence web design lyon, agence design lyonnaise, agence design web rhône-alpes">
-    <meta name="description" content="Entreprise de Web Design La Chouette Agence basée à Lyon">
+    <meta name="description" content="Contactez La Chouette Agence basée à Lyon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
+	<link rel="stylesheet" type="text/css" href="./css/page2.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.min.css" defer>
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
@@ -18,7 +19,7 @@
 	<script src="./js/jquery.touchSwipe.min.js" defer></script>
 	<script src="./js/gmaps.min.js" defer></script>
 
-    <title>La Chouette Agence -Entreprise de Web Design</title>
+    <title>Contact-La Chouette Agence -Entreprise de Web Design</title>
 
     
 <!-- Analytics -->
@@ -44,11 +45,6 @@
 				<ul class="site-navigation nav navbar-nav">
 					<li>
 						<a href="index.html">Accueil</a>
-					</li>
-					<li>
-					</li>
-					<li>
-						<a href="page2.html">page2 &gt;</a>
 					</li>
 				</ul>
 			</div>
@@ -80,29 +76,37 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
+				<label>
+					Echec de l'envoi
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				</label>
 					<div class="form-group">
 						<label>
 							Nom
-						</label>
+						
 						<input id="name" class="form-control" required />
+						</label>
 					</div>
 					<div class="form-group">
 						<label>
 							Adresse email
+						
+							<input id="email" class="form-control" type="email" required />
 						</label>
-						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
 						<label>
 							Comment nous avez-vous connu ?
+						
+							<input class="form-control" type="email" required id="input_504" />
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
 					</div>
 					<div class="form-group">
 						<label>
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						
+							<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
@@ -110,7 +114,7 @@
 				</form>
 			</div>
 			<div class="col-sm-6">
-				<p>
+				<p class="contact">
 					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
 				</p>
 			</div>
@@ -135,22 +139,22 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" href="index.html"><span class="fa fa-twitter icon-md">Twitter</span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" href="index.html"><span class="fa fa-facebook icon-md">Facebook</span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md">Dribble</span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="index.html"><span class="fa fa-instagram icon-md">Instagram</span></a>
 						</div>
 					</div>
 				</div>
