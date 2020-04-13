@@ -85,7 +85,7 @@ a:hover {
  background-attachment:fixed
 }
 .d-bloc {
- color:rgba(255,255,255,.7);
+ color:#black;
 }
 .d-bloc button:hover {
  color:rgba(255,255,255,.9)
