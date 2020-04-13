@@ -247,6 +247,9 @@ footer .row {
  align-content:space-around;
  justify-content:space-around
 }
+.keywords{
+	display: none;
+}
 
  
 @media (max-width:650px) {
