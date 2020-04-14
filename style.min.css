@@ -340,7 +340,7 @@ footer .col-sm-4 a:hover {
 #bloc-5-cta h2 {
  opacity:100%;
  font-weight:700;
- background-color:rgba(165,147,99,.7);
+ 
  padding:40px 40px 40px 40px;
  max-width:500px;
  margin:auto
@@ -759,7 +759,7 @@ h4 {
  background-color:#f3976c
 }
 .tc-white {
- color:#f8b89b!important
+ color:#f3976c!important
 }
 .btn-atomic-tangerine {
  background:#f3976c;
