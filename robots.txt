@@ -1,0 +1,3 @@
+User-Agent: *
+Allow: /
+Sitemap: https://philippe7705.github.io/test/sitemap.xml
