@@ -957,7 +957,9 @@ h4 {
 #bloc-4-portfolio p {
     font-size: 1.3rem;
 }
-
+.keywords{
+    display: none;
+}
 
 
 .bg-dots-bg {
