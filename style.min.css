@@ -85,7 +85,7 @@ a:hover {
  background-attachment:fixed
 }
 .d-bloc {
- color:#black;
+ color:#333333;
 }
 .d-bloc button:hover {
  color:rgba(255,255,255,.9)
@@ -369,7 +369,7 @@ footer .row .col-sm-4 {
  #bloc-8 p {
   padding:0;
    
-  margin:0
+  margin:0;
   font-size:17px;
  }
 }
@@ -799,7 +799,7 @@ h4 {
 #bloc-4-portfolio h3 {
  font-size:1.4rem;
  line-height:2.5rem;
- text-transform:default;
+ text-transform:none;
  color:rgba(0,0,0,.5)!important
 }
 #bloc-4-portfolio p {
