@@ -392,7 +392,7 @@ footer .col-sm-12 .row .col-sm-4 li a {
 }
 
 footer .col-sm-4 li:hover {
-    color: red;
+    color: rgb(216, 32, 32);
 }
 
 footer .col-sm-4 a:hover {
@@ -402,7 +402,7 @@ footer .col-sm-4 a:hover {
 #bloc-5-cta h2 {
     opacity: 100%;
     font-weight: 700;
-    background-color: rgba(165, 147, 99, 0.7);
+    /*background-color: rgba(165, 147, 99, 0.7);*/
     padding: 40px 40px 40px 40px;
     max-width: 500px;
     margin: auto;
@@ -865,6 +865,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin-right: 13px;
 }
 
 .portfolio-row {
