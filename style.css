@@ -865,7 +865,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
-    margin-right: 13px;
+    
 }
 
 .portfolio-row {
@@ -878,7 +878,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    /*background-color: rgba(165, 147, 99, 0.7);*/
     padding: 40px 40px 40px 40px;
 }
 
@@ -1187,10 +1187,16 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .portfolio-thumb {
+       margin-left: 13px;
+    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
+    .portfolio-thumb {
+        margin-left: 13px;
+     }
 }
